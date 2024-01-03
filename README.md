@@ -1,55 +1,9 @@
-# ModVizPop 
-### R Shiny Based Interface for Empowering Teams to Perform Real-Time Pharmacokinetic/Pharmacodynamic Simulations
-
-ModVizPop is an interactive and dynamic visualization tool 
-developed for simulating differential equation based population PK/PD 
-models with variability. It has an in built PK/PD ODE library of models
-to choose from alongside ability to plug in a user defined model from 
-local or project directory. The user interface consists of several key 
-inputs for performing the simulations as well as options to visualize the 
-plots, input parameters, derived values and equations. It also provides 
-the ability to download the underlying model, plots, simulated data or a 
-comprehensive report consisting of all the key inputs and outputs of the 
-simulations. The interface includes advanced features where users can overlay 
-external data on a simulation, set a certain simulation scenario as a 
-reference or carry out sensitivity analysis based simulations. This easy to 
-use interface can serve as a valuable tool to project teams to evaluate 
-potential scenarios facilitating collaborative decision making in the drug 
-discovery and development paradigm.
-
-![](./inst/shiny-apps/myapp/www/Picture1.1.png)
-
-## Accessing the Application
-
-### 1. R Installation 
-
-<img src="./inst/shiny-apps/myapp/www/modvizpopThumbnail.png" width="130" height="150"/>
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s879_YG5JbpctPw61nqrX7q3BMNXhrrLXUiqdlbe08Hvx_logo_38.jpg)
 
 
-This package is not currently on CRAN. Install it via devtools:
 
-```r
-devtools::install_github("PavanVaddady/modvizpop")
-```
+# ModVizPop: Empowering Real-Time PK/PD Simulations
 
-Once installed, access the application using the commands below:
+#### Use app online: __[www.shinyappstore.com/a/ModVizPop](https://shinyappstore.com/a/ModVizPop)__
 
-```r
-library(modvizpop)
-runmodvizpop()
-```
-
-### 2. Using shinyapps.io
-You can also access the readily working application using the following link:
-
-[https://pavanvaddady.shinyapps.io/modvizpop/](https://pavanvaddady.shinyapps.io/modvizpop/)
-
-## Demonstration
-![](./inst/shiny-apps/myapp/www/ModVizPop-Demo.gif)
-
-
-## Publications and Posters
-
-1. [ModViz POP: R Shiny-Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations](./inst/shiny-apps/myapp/www/Posters/Vaddady_ACOP2018_ModViz.pdf)
-
-2. [Comparison of PK/PD simulations using ModVizPOP, an R-Shiny based PK/PD interface and NONMEM](./inst/shiny-apps/myapp/www/Posters/Ananthula_ACOP2019_ModViz.pdf)
+ModVizPop is an application designed to empower teams in performing real-time pharmacokinetic/pharmacodynamic simulations. It offers a comprehensive set of built-in model libraries. This tool focuses on simulating population pharmacokinetics and pharmacodynamics (PK/PD) models with variability, using differential equations. The application provides an intuitive user interface with key inputs for conducting simulations and options to visualize plots, and equations. Users can choose from the built-in PK/PD ODE library or incorporate their own user-defined models from local or project directories. Additionally, the interface also includes advanced features such as overlaying external data on a simulation, setting specific scenarios as references, and performing sensitivity analysis-based simulations. This tool can be valuable for project teams in evaluating potential scenarios, facilitating collaborative decision-making throughout the drug discovery and development process.
